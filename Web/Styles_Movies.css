@@ -1,0 +1,126 @@
+body{
+    font-family: "Arial";
+    flex-wrap: nowrap;
+}
+
+.button_load{
+    text-align: center;
+}
+
+.idMovie{
+    max-width: 700px;
+    background-color: #ffffff;
+    color: #000000;
+    display: flex;
+    flex-flow: row;
+    vertical-align: top;
+    border-bottom: 1px solid #ddd;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0 auto
+}
+
+.numMovie{
+    font-size: 100%;
+    flex-wrap: nowrap;
+    display: inline-block;
+    width: 3%;
+    height: 50%;
+    text-align: left;
+    vertical-align: top;
+    font-weight: bold;
+    padding-right: 7px;
+}
+
+.poster{
+    padding-right: 15px;
+    flex-wrap: nowrap;
+    display: inline-block;
+}
+
+img{
+    width:100px;
+    box-shadow: 2px 2px #888888;
+    border-radius: 4px;
+}
+
+.informationMovie{
+    display: flex;
+    flex-flow: column;
+    vertical-align: top;
+    border-right: 1px solid #ddd;
+    padding-right: 10px;
+}
+
+.space{
+    padding-bottom: 10px;
+}
+
+.title{
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+}
+.title:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.county{
+    width: 18px;
+    height: 12px;
+}
+
+.director{
+    text-decoration: none;
+    color: #6381B1;
+    font-size: 14px;
+}
+.director:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.actor{
+    text-decoration: none;
+    color: #32363C;
+    font-size: 14px;
+}
+.actor:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.votesMovie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 20%;
+    justify-content: center;
+}
+
+.number{
+    border-radius: 4px;
+    font-size: 30px;
+    padding: 4px;
+    background-color: #548ADA;
+    color: white;
+}
+
+.votes{
+    font-size: 10px;
+}
+
+.dataMovie{
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 400px) {
+    aside1{display: none}
+    aside3{border-right: none; flex-direction: column;}
+    aside34{flex-direction: column}
+    aside4{align-items: flex-start}
+
+}
